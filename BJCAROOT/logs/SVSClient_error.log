@@ -1,0 +1,137 @@
+INFO   [2018-09-14 10:20:00 734] 192.168.8.110 connection error ! create new connection exception !
+INFO   [2018-09-14 10:20:00 734] cn.org.bjca.client.exceptions.ConnectException: Connect server 192.168.8.110:8000 error !
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:141)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.getC(ShortConnectionPool.java:82)
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForSVS(TransportTool.java:29)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2566)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:963)
+	at cn.org.bjca.client.security.SecurityEngineDeal.getInstance(SecurityEngineDeal.java:183)
+	at com.fri.ctid.security.bjca.Api.initConnection(Api.java:25)
+	at com.anxin.data.DataSignature.signDataByP7DetachForJit(DataSignature.java:40)
+	at com.anxin.test.RunDemo.main(RunDemo.java:65)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at cn.org.bjca.client.framework.connection.Connection.<init>(Connection.java:27)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:134)
+	... 9 more
+
+INFO   [2018-09-14 10:20:01 739] 192.168.8.110 connection error ! create new connection exception !
+INFO   [2018-09-14 10:20:01 740] cn.org.bjca.client.exceptions.ConnectException: Connect server 192.168.8.110:8000 error !
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:141)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.getC(ShortConnectionPool.java:82)
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForSVS(TransportTool.java:29)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2566)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:963)
+	at cn.org.bjca.client.security.SecurityEngineDeal.getInstance(SecurityEngineDeal.java:183)
+	at com.fri.ctid.security.bjca.Api.initConnection(Api.java:25)
+	at com.anxin.data.DataSignature.signDataByP7DetachForJit(DataSignature.java:40)
+	at com.anxin.test.RunDemo.main(RunDemo.java:65)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at cn.org.bjca.client.framework.connection.Connection.<init>(Connection.java:27)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:134)
+	... 9 more
+
+INFO   [2018-09-14 10:20:02 743] 192.168.8.110 connection error ! create new connection exception !
+INFO   [2018-09-14 10:20:02 744] cn.org.bjca.client.exceptions.ConnectException: Connect server 192.168.8.110:8000 error !
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:141)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.getC(ShortConnectionPool.java:82)
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForSVS(TransportTool.java:29)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2566)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:963)
+	at cn.org.bjca.client.security.SecurityEngineDeal.getInstance(SecurityEngineDeal.java:183)
+	at com.fri.ctid.security.bjca.Api.initConnection(Api.java:25)
+	at com.anxin.data.DataSignature.signDataByP7DetachForJit(DataSignature.java:40)
+	at com.anxin.test.RunDemo.main(RunDemo.java:65)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at cn.org.bjca.client.framework.connection.Connection.<init>(Connection.java:27)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:134)
+	... 9 more
+
+INFO   [2018-09-14 10:20:02 744] Get connection error!!!
+INFO   [2018-09-14 10:20:02 744] cn.org.bjca.client.exceptions.ConnectException
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.getC(ShortConnectionPool.java:103)
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForSVS(TransportTool.java:29)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2566)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:963)
+	at cn.org.bjca.client.security.SecurityEngineDeal.getInstance(SecurityEngineDeal.java:183)
+	at com.fri.ctid.security.bjca.Api.initConnection(Api.java:25)
+	at com.anxin.data.DataSignature.signDataByP7DetachForJit(DataSignature.java:40)
+	at com.anxin.test.RunDemo.main(RunDemo.java:65)
+
+INFO   [2018-09-14 10:20:03 758] 192.168.8.110 connection error ! create new connection exception !
+INFO   [2018-09-14 10:20:03 758] cn.org.bjca.client.exceptions.ConnectException: Connect server 192.168.8.110:8000 error !
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:141)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.getC(ShortConnectionPool.java:82)
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForSVS(TransportTool.java:29)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2566)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:963)
+	at cn.org.bjca.client.security.SecurityEngineDeal.getInstance(SecurityEngineDeal.java:183)
+	at com.fri.ctid.security.bjca.Api.initConnection(Api.java:25)
+	at com.anxin.data.DataSignature.signDataByP7DetachForJit(DataSignature.java:40)
+	at com.anxin.test.RunDemo.main(RunDemo.java:65)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at cn.org.bjca.client.framework.connection.Connection.<init>(Connection.java:27)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:134)
+	... 9 more
+
+INFO   [2018-09-14 10:20:04 761] 192.168.8.110 connection error ! create new connection exception !
+INFO   [2018-09-14 10:20:04 762] cn.org.bjca.client.exceptions.ConnectException: Connect server 192.168.8.110:8000 error !
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:141)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.getC(ShortConnectionPool.java:82)
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForSVS(TransportTool.java:29)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2566)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:963)
+	at cn.org.bjca.client.security.SecurityEngineDeal.getInstance(SecurityEngineDeal.java:183)
+	at com.fri.ctid.security.bjca.Api.initConnection(Api.java:25)
+	at com.anxin.data.DataSignature.signDataByP7DetachForJit(DataSignature.java:40)
+	at com.anxin.test.RunDemo.main(RunDemo.java:65)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at cn.org.bjca.client.framework.connection.Connection.<init>(Connection.java:27)
+	at cn.org.bjca.client.framework.connectionpool.ShortConnectionPool.newConnection(ShortConnectionPool.java:134)
+	... 9 more
+

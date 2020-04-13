@@ -1,0 +1,7 @@
+[2018-09-14 08:02:12.486] [loglevel=error!] [status=0x00000000] <<===>> [pid(BjcaCertAide.exe:10044) tid(8672)] [cryptousbicapi.cpp(145)] [SKFAPIWrapper::SKFAPIWrapper] [ProvName(BJCAMSSP GM Provider) can not loaded library(BjcaMssp.dll) try again...]
+[2018-09-14 08:02:12.527] [loglevel=error!] [status=0x00000000] <<===>> [pid(BjcaCertAide.exe:10044) tid(8672)] [cryptousbicwrap.cpp(2333)] [SKFProviderWrap::LoadImplLibrary] [ProvName(BJCAMSSP GM Provider) Can not load DSO(BjcaMssp.dll)!]
+[2018-09-14 08:02:12.536] [loglevel=error!] [status=0x00000000] <<===>> [pid(BjcaCertAide.exe:10044) tid(8672)] [cryptoman.cpp(542)] [CryptokenManager::OnFindToken] [call Provider OnDeviceChange error!]
+[2018-09-14 08:02:14.226] [loglevel=error!] [status=0x00000000] <<===>> [pid(BjcaCertAide.exe:10044) tid(16808)] [cryptobucket.cpp(2708)] [CryptokenBucket::HashData] [invalid parameter!]
+[2018-09-14 08:02:14.246] [loglevel=error!] [status=0x0b000034] <<===>> [pid(BjcaCertAide.exe:10044) tid(16808)] [XTXApp.cpp(1585)] [CXTXApp::SOF_HashData] [hashAlgId:4 InDataLength:0 HashData error!]
+[2018-09-14 09:02:14.222] [loglevel=error!] [status=0x00000000] <<===>> [pid(BjcaCertAide.exe:10044) tid(14300)] [cryptobucket.cpp(2708)] [CryptokenBucket::HashData] [invalid parameter!]
+[2018-09-14 09:02:14.225] [loglevel=error!] [status=0x0b000034] <<===>> [pid(BjcaCertAide.exe:10044) tid(14300)] [XTXApp.cpp(1585)] [CXTXApp::SOF_HashData] [hashAlgId:4 InDataLength:0 HashData error!]
